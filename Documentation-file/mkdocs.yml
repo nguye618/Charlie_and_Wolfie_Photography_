@@ -1,0 +1,54 @@
+site_name: Only Charlie Photography
+site_description: Webpage for Only Charlie Photography blog, gallery, and contact.
+site_author: Cathleen Lapadat
+site_url: https://nguye618.github.io/Only_Charlie_Photography/
+theme:
+  name: material
+  logo: 'charlie.png'
+  palette:
+    - scheme: default
+      primary: light green
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: slate
+      primary: light green
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.prune
+    - search.highlight
+    - search.share
+    - header.autohide
+  font:
+    text: Indie Flower
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - search
+  - table-reader
+  - tags
+  - glightbox
+markdown_extensions:
+  - meta
+  - attr_list
+  - md_in_html
+repo_url: https://github.com/nguye618/OnlyCharliePhotography
+repo_name: nguye618/Only_Charlie_Photography
+edit_uri: ""
+nav:
+  - Home: 'index.md'
+  - Blog: 'Blog.md'
+  - Gallery:
+    - Only Charlie: 'Gallery_OnlyCharlie.md'
+    - Pets: 'Gallery_pets.md'
+    - Wildlife: 'Gallery_wildlife.md'
+    - Landscapes: 'Gallery_landscapes.md'
+  - About Me: 'about_me.md'
+  - Contact: 'contact.md'
