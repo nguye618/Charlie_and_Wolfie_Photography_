@@ -40,7 +40,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
 repo_url: https://github.com/nguye618/Charlie_and_Wolfie_Photography
-repo_name: nguye618/Only_Charlie_Photography
+repo_name: nguye618/Charlie_and_Wolfie_Photography
 edit_uri: ""
 nav:
   - Home: 'index.md'

@@ -5,4 +5,4 @@ hide:
   - footer
 ---
 
-#**Welcome to Only Charlie Photography**
+#**Welcome to Charlie and Wolfie Photography**
